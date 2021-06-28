@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="amodoulaminmarongfinalproject.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Pane layoutX="3.0" layoutY="1.0" prefHeight="480.0" prefWidth="634.0">
+         <children>
+            <MenuBar prefHeight="25.0" prefWidth="634.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="Admin">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Login Administrator" />
+                        <MenuItem mnemonicParsing="false" text="Register" />
+                        <MenuItem mnemonicParsing="false" text="Logout" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Store">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Sales" />
+                        <MenuItem mnemonicParsing="false" text="Generated Receipts" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Archieve">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Permanent Delete" />
+                        <MenuItem mnemonicParsing="false" text="Deleted" />
+                        <MenuItem mnemonicParsing="false" text="Restore" />
+                  </items>
+                </Menu>
+                  <Menu mnemonicParsing="false" text="Tools">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Documentation" />
+                        <MenuItem mnemonicParsing="false" text="Helps" />
+                    </items>
+                  </Menu>
+              </menus>
+            </MenuBar>
+            <Label layoutX="153.0" layoutY="43.0" prefHeight="17.0" prefWidth="273.0" text="Marong's Boutique" textAlignment="CENTER" textFill="#c9b4b4" underline="true">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Label>
+            <Pane layoutX="87.0" layoutY="136.0" prefHeight="209.0" prefWidth="461.0" />
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>
